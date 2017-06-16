@@ -7,12 +7,6 @@
     tools:context="com.example.huy.drumpads.MainActivity"
     android:background="#000000">
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.03"
-        android:visibility="invisible"></View>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -73,7 +67,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.03"
+        android:layout_weight="0.04"
         android:visibility="invisible"></View>
 
     <LinearLayout
@@ -136,7 +130,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.03"
+        android:layout_weight="0.04"
         android:visibility="invisible"></View>
 
     <LinearLayout
@@ -199,6 +193,64 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.03"
+        android:layout_weight="0.04"
         android:visibility="invisible"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:layout_weight="5">
+        </View>
+
+        <ImageView
+            android:tag="10"
+            android:id="@+id/bt_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="100"
+            android:background="@drawable/custom_default" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:layout_weight="5">
+        </View>
+
+        <ImageView
+            android:tag="11"
+            android:id="@+id/bt_11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="100"
+            android:background="@drawable/custom_default" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:layout_weight="5">
+        </View>
+
+        <ImageView
+            android:tag="12"
+            android:id="@+id/bt_12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="100"
+            android:background="@drawable/custom_default" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:layout_weight="5">
+        </View>
+    </LinearLayout>
+
 </LinearLayout>
